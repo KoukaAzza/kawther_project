@@ -1,0 +1,47 @@
+body {
+    /*background: #FAF0E6  ;*/
+    
+    background-image: url("./images/table.jpeg");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardsback {
+   height: 50%;
+   width: 20%;
+   margin-left: 50%;
+}
+#img
+{
+    height: 50%;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+
+.handcards {
+    display: flex;
+    gap: 10px;
+  }
+  
+  img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  img:hover {
+    transform: translateY(-5px);
+  }
+
+  #playerhand{
+    margin-left: 50%;
+  }
+
+  .all{
+    margin-left: 35%;
+  }

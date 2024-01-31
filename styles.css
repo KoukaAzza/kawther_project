@@ -1,0 +1,33 @@
+body {
+    /*background: #FAF0E6  ;*/
+    backdrop-filter: blur(8px);
+    background-image: url("tunisia.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.mapdiv{
+    filter: blur(0px);
+    width: 22%;
+    margin: auto;
+    -webkit-filter: blur(0px);
+}
+
+.mapdiv path{
+    fill: #800000;
+    stroke : #FFE4E1;
+    stroke-width: 2px ;
+}
+
+.mapdiv :hover{
+    fill: #00FF7F;
+
+}
